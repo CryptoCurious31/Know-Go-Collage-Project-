@@ -1,0 +1,58 @@
+/* ========= Poppins font link ======= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('assets/images/istockphoto-1292075242-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    /* display: block; */
+}
+
+/* ===== Hero Section Css ====== */
+
+.hero {
+    
+}
+
+/* ===== Header section Css ====== */
+
+header {
+    background-color: transparent !important;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+nav .logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    padding: 0 0 0 20px;
+}
+
+.container-fluid ul {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-fluid ul a {
+    text-decoration: none;
+    list-style-type: none;
+}
