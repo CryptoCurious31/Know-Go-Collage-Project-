@@ -9,18 +9,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url('assets/images/istockphoto-1292075242-612x612.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* height: 100vh; */
-    /* display: block; */
 }
 
 /* ===== Hero Section Css ====== */
-
 .hero {
-    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/midsection-young-blind-man-white-600nw-1507709129.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* ===== Header section Css ====== */
@@ -34,13 +30,14 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    margin: 0 0;
+    padding: 20px 0;
 }
 
 nav .logo {
     font-size: 25px;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     padding: 0 0 0 20px;
 }
 
@@ -54,5 +51,89 @@ nav .logo {
 
 .container-fluid ul a {
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
     list-style-type: none;
+    color:  #fff;
+    transition: color 0.5s ease;
+}
+
+.container-fluid ul a:hover {
+    background-color: transparent !important;
+    color: #800080;
+}
+
+/* ====== Hero Section Css ======== */
+
+.column {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    width: 70%;
+}
+
+.column p {
+    color: #fff;
+}
+
+.column p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.column h4 {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: #fff;
+}
+
+.column p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.column .button {
+    margin-top: 20px;
+}
+
+.column button {
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #800080 !important;
+    transition: color 0.5s ease; 
+    position: relative;
+    overflow: hidden;
+}
+
+.column button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transition: width 0.7s ease;
+    z-index: 0;
+}
+
+.column button:hover::before {
+    width: 100%;
+}
+
+.column .button button:hover {
+    color: #800080;
+}
+
+.button a span {
+    position: relative;
+    z-index: 1;
 }
