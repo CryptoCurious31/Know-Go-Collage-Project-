@@ -342,7 +342,7 @@ nav .logo {
 /* ===== Detailed About Team ====== */
 
 .about-team {
-    padding: 60px;
+    padding: 80px;
     margin-top: 30px;
 }
 
@@ -353,4 +353,88 @@ nav .logo {
 
 .team-image img {
     width: 100%;
+}
+
+/* ===== Footer Section Css ====== */
+
+.footer {
+    padding: 30px;
+    background-color: #800080;
+    color: #fff;
+}
+
+.section-1 {
+display: flex;
+flex-direction: column;
+}
+
+.section-1 h4 { 
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.section-1 p {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.section-1 ul {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+}
+
+.section-1 ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section-2 ul {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;   
+}
+
+.section-2 ul a {
+    transition: all 0.5s ease;
+}
+
+.section-2 ul a:hover {
+    color: #00ffff;
+}
+
+.section-3 {
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.section-3 h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.section-3 p {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.section-3 input {
+    padding: 5px 20px;
 }
