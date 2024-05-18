@@ -1,0 +1,18 @@
+@media ( max-width: 375px) {
+    .hero ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #fff;
+        color: #8a2be2;
+    }
+
+    .hero ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+}
